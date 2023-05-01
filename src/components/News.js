@@ -63,10 +63,10 @@ const News = (props) => {
   //   });
   //    updateNew();
   // };
-  
+
     return (
       <div className="container my-3">
-        <h1 className="text-center" style={{ margin: "35px 0px" }}>
+        <h1 className="text-center" style={{ margin: "35px 0px",marginTop:'90px' }}>
           News-Hunt - Top {capitalizaFirstLatter(props.category)}{" "}
           Headlines
         </h1>

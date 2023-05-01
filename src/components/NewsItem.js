@@ -6,7 +6,7 @@ const NewsItem = (props) =>{
       <div>
         <div className="card">
           <div style={{display:'flex', justifyContent:'center',position:'absolute',right:0}}>
-        <span class="badge rounded-pill bg-danger">
+        <span className="badge rounded-pill bg-danger">
                 {source}
               </span>
               </div>
